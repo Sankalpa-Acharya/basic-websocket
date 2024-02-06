@@ -1,0 +1,23 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+footer{
+  margin-top: auto;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+footer input {
+flex-grow: 1;
+}
